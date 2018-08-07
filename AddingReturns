@@ -1,0 +1,13 @@
+# def add(num1, num2):
+#     sum = num1 + num2
+#     return sum
+#     print(sum)
+# my_sum = add(16, 16)
+# print(my_sum)
+print("1, 2, 3, 4, 5")
+def calc_total(nums):
+    sum = 0
+    for el in nums:
+        sum += el
+    return sum
+print(calc_total([1, 2, 3, 4, 5]))
